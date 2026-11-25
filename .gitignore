@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+.env.local
+*.env
+!.env.example
+!backend/env.example
+
+# Build & Cache
+/frontend/build
+/dist
+.cache/
+
+# Uploaded Files
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Editor / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
